@@ -25,7 +25,7 @@ I'm glad you are here. I plan to talk about the Exponential Deep Space Industrie
 
 1. 自适应光学手段
 2. 对M类金属小行星等
-3. 进行[太阳能聚焦矿坑熔融](https://en.wikipedia.org/wiki/Odeillo_solar_furnace)开采
+3. 进行[太阳能聚焦矿坑熔融](topics/solar-focus.md)开采
 4. 以及材料成型（板材/型材/打印材料）
 5. 实现对自适应光学聚焦系统等结构件的规模复制（如板材反射面加电推姿态）（通过空间机械关节系统与AI工具）
 
@@ -61,7 +61,7 @@ Topics in need for the exponential deep space industries
 
 * [Solar focus](topics/solar-focus.md)
 * [Smelting and forming](topics/smelting-and-forming.md)
-* [Electric Propulsion](topics/space-robotics.md)
+* [Space robotics](topics/space-robotics.md)
 
 ### others
 
@@ -69,10 +69,6 @@ Topics in need for the exponential deep space industries
 
 ## 参考资源
 
-* [X-type asteroid](https://en.wikipedia.org/wiki/X-type_asteroid)
-* [1.5T@1MW get 550kW/T](https://detail.1688.com/offer/577804870498.html)
-* [150吨电弧炉@120MVA get 1MT/yr](http://mecc.sinosteel.com/service_content.aspx?id=3327)
-* [第5章电弧炉炼钢](http://www1.xpc.edu.cn/dhl/flash/4/%E7%AC%AC5%E7%AB%A0%E7%94%B5%E5%BC%A7%E7%82%89%E7%82%BC%E9%92%A2.pdf)
 
 ## Join us
 

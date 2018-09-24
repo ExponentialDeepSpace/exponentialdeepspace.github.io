@@ -10,5 +10,6 @@ Included minor planets and [comets](https://en.wikipedia.org/wiki/List_of_number
 
 ## Resource
 
+* [X-type asteroid](https://en.wikipedia.org/wiki/X-type_asteroid)
 * [Asteroid Database and Mining Rankings - Asteran](http://www.asterank.com/)
 * [List of minor planets on Wikipedia](https://en.wikipedia.org/wiki/List_of_minor_planets)

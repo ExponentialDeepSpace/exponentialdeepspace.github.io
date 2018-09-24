@@ -8,7 +8,7 @@
 
 * [Solar focus](topics/solar-focus.md)
 * [Smelting and forming](topics/smelting-and-forming.md)
-* [Electric Propulsion](topics/space-robotics.md)
+* [Space robotics](topics/space-robotics.md)
 
 
 ## others
