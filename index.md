@@ -6,7 +6,7 @@ I'm glad you are here. I plan to talk about the Exponential Deep Space Industrie
 
 <center>非正式的说，就是个深空自动化造炼钢太阳灶的</center>
 
-<center>Informal speaking, it's just a project on automatic build the solar furnace for steel smelting in deep space.</center>
+<center>Informally speaking, it's just a project on automatically duplicate the solar furnace for steel smelting in deep space.</center>
 
 <!-- ## Mission & Principle
 
@@ -25,7 +25,7 @@ I'm glad you are here. I plan to talk about the Exponential Deep Space Industrie
 
 1. 自适应光学手段
 2. 对M类金属小行星等
-3. 进行太阳能聚焦矿坑熔融开采
+3. 进行[太阳能聚焦矿坑熔融](https://en.wikipedia.org/wiki/Odeillo_solar_furnace)开采
 4. 以及材料成型（板材/型材/打印材料）
 5. 实现对自适应光学聚焦系统等结构件的规模复制（如板材反射面加电推姿态）（通过空间机械关节系统与AI工具）
 
