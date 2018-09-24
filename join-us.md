@@ -1,4 +1,19 @@
 
+<!-- ## Mission & Principle
+
+* 人类已经开始产生星球范围内大规模的影响，这标志着，封闭体系，扩展，AI与人类新的空间
+* 大规模的空间工业基础是进入跨行星文明的基石
+* 规模性空间工业作为进一步大科学仪器、人类在空间生活、更大规模种类工业空间化实现部分自给自足
+* 尽量使用货架技术或原型经大规模验证的准货架技术
+
+[talk given in pusoft of **from AI to space**](fromAI2Space-pusoft-talkshow-compressed.pdf)
+
+祖布林?
+
+自动化复制炼钢太阳灶 -->
+
+![](imgs/2049-2050-tickets.jpg)
+
 # contact from the admin
 
 * nirvanajay[a]gmail.com

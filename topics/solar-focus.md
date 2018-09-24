@@ -10,4 +10,7 @@ The Odeillo solar furnace is the world's largest solar furnace. It is situated i
 
 Temperatures above 3,500 °C (6,330 °F) can be obtained in a few seconds.
 
-https://en.wikipedia.org/wiki/Odeillo_solar_furnace
+## Resource
+
+* https://en.wikipedia.org/wiki/Odeillo_solar_furnace
+* [陈应天高纯硅冶炼](https://xueqiu.com/7864874582/31511545)
