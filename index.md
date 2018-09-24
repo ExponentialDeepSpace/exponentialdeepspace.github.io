@@ -4,9 +4,9 @@ I'm glad you are here. I plan to talk about the Exponential Deep Space Industrie
 
 [![diagram of the proposed exponential deep space industries](imgs/eds-diagram.png)](tech-tree.html)
 
-:非正式的说，就是个深空自动化造炼钢太阳灶的:
+<center>非正式的说，就是个深空自动化造炼钢太阳灶的</center>
 
-:Informal speaking, it's just a project on automatic build the solar furnace for steel smelting in deep space.:
+<center>Informal speaking, it's just a project on automatic build the solar furnace for steel smelting in deep space.</center>
 
 <!-- ## Mission & Principle
 
