@@ -22,7 +22,7 @@ I'm glad you are here. I plan to talk about the Exponential Deep Space Industrie
 
 ## 在线会议
 
-* 指数增长自复制深空矿业[第一次会议](2018-09-meeting.md)
+* 指数增长自复制深空工业[第一次会议](2018-09-meeting.md)
 
 ### 可能的会议议程
 
