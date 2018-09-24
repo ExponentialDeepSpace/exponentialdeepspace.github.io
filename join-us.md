@@ -1,4 +1,9 @@
 
+# contact from the admin
+
+* nirvanajay[a]gmail.com
+* wechat: 1213 1957
+
 ## 板块
 
 * 总体
