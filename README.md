@@ -23,4 +23,5 @@ I'm glad you are here. I plan to talk about the Exponential Deep Space Industrie
 3. 接近和达到这个规模后进行更多的（可人类参与）在轨科学与工业研究，实现进一步的纯粹科学与提高组件在轨生产率目的（包括空间农业）
 
 All of the site's source code is licensed under the Creative Commons BY-SA 4.0
+
 ![](https://upload.wikimedia.org/wikipedia/commons/a/a1/CC-BY-SA_icon_orange.svg)
