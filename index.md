@@ -2,7 +2,9 @@
 
 I'm glad you are here. I plan to talk about the Exponential Deep Space Industries.
 
-## Mission & Principle
+![diagram of the proposed exponential deep space industries](imgs/eds-diagram.png)
+
+<!-- ## Mission & Principle
 
 * 人类已经开始产生星球范围内大规模的影响，这标志着，封闭体系，扩展，AI与人类新的空间
 * 大规模的空间工业基础是进入跨行星文明的基石
@@ -11,7 +13,7 @@ I'm glad you are here. I plan to talk about the Exponential Deep Space Industrie
 
 [talk given in pusoft of **from AI to space**](fromAI2Space-pusoft-talkshow-compressed.pdf)
 
-自动化复制炼钢太阳灶
+自动化复制炼钢太阳灶 -->
 
 ## 总纲
 
