@@ -2,7 +2,7 @@
 
 I'm glad you are here. I plan to talk about the Exponential Deep Space Industries.
 
-[![diagram of the proposed exponential deep space industries](imgs/eds-diagram.png)](tech-tree.html)
+[![diagram of the proposed exponential deep space industries](/assets/imgs/eds-diagram.png)](tech-tree.md)
 
 <center>非正式的说，就是个深空自动化造太阳灶炼钢的</center>
 
