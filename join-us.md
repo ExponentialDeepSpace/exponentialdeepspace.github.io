@@ -5,10 +5,16 @@
 * 大规模的空间工业基础是进入跨行星文明的基石
 * 规模性空间工业作为进一步大科学仪器、人类在空间生活、更大规模种类工业空间化实现部分自给自足
 * 尽量使用货架技术或原型经大规模验证的准货架技术
+* 太空制造结构件，最小化地球核心组件补给
 
 [talk given in pusoft of **from AI to space**](fromAI2Space-pusoft-talkshow-compressed.pdf)
 
 祖布林?
+
+嫦娥总师 叶培建 - 
+http://hitgs.hit.edu.cn/84/5a/c3501a164954/page.htm
+http://m.hitwh.edu.cn/newsshow.asp?id=24403
+https://military.china.com/important/11132797/20170509/30505692_all.html
 
 自动化复制炼钢太阳灶 -->
 
@@ -60,3 +66,8 @@
 10. 设计与创意
     * NJ X
     * Romax
+
+
+## Reference
+
+* -

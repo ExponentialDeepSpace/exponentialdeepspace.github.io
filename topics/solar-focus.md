@@ -12,5 +12,5 @@ Temperatures above 3,500 °C (6,330 °F) can be obtained in a few seconds.
 
 ## Resource
 
-* https://en.wikipedia.org/wiki/Odeillo_solar_furnace
+* [Odeillo solar furnace](https://en.wikipedia.org/wiki/Odeillo_solar_furnace)
 * [陈应天高纯硅冶炼](https://xueqiu.com/7864874582/31511545)
