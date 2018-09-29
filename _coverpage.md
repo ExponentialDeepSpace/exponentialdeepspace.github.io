@@ -11,7 +11,7 @@ Grow in Space
 * Self-sustained
 
 [GitHub](https://github.com/ExponentialDeepSpace)
-[About](index.md)
+[About](#welcome-to-the-eds)
 
 
 <!-- background image -->
