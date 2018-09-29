@@ -1,5 +1,3 @@
-http://exponentialdeepspace.org
-
 # Welcome to the EDS
 
 I'm glad you are here. I plan to talk about the Exponential Deep Space Industries.

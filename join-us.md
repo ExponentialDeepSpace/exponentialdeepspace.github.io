@@ -7,7 +7,7 @@
 * 尽量使用货架技术或原型经大规模验证的准货架技术
 * 太空制造结构件，最小化地球核心组件补给
 
-[talk given in pusoft of **from AI to space**](fromAI2Space-pusoft-talkshow-compressed.pdf)
+[talk given in pusoft of **from AI to space**](/assets/documents/fromAI2Space-pusoft-talkshow-compressed.pdf)
 
 祖布林?
 
@@ -18,7 +18,7 @@ https://military.china.com/important/11132797/20170509/30505692_all.html
 
 自动化复制炼钢太阳灶 -->
 
-![](imgs/2049-2050-tickets.jpg)
+![](/assets/imgs/2049-2050-tickets.jpg)
 
 # contact from the admin
 

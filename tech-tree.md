@@ -1,6 +1,6 @@
 # Overview
 
-For more detail, go check the [Topics](topics.html)
+For more detail, go check the [Topics](topics.md)
 
 ## 科技树
 
