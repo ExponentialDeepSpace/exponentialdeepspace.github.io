@@ -26,3 +26,4 @@
 * [Intelligent Robotic Systems for Space Exploration, by Alan A. Desrochers, 2012](https://books.google.com.hk/books?id=bJ_zBwAAQBAJ)
 * [Truss Structure Teleoperation using ETS-7 Space Robot, NAL, 1999](https://repository.exst.jaxa.jp/dspace/bitstream/a-is/23590/1/nalrp2001026.pdf)
 * [Additive Robotic Fabrication of Complex Timber Structures, Volker Helm, Michael Knauss, ETHZ, 2015](https://www.bfh.ch/fileadmin/data/publikationen/2015/D_59_Sitzmann_S.pdf)
+* [Dismantling Rubble Pile Asteroids with AoES (Area-of-Effect Soft-bots), Jay McMahon, NASA, 2018](https://www.nasa.gov/directorates/spacetech/niac/2018_Phase_I_Phase_II/Dismantling_Rubble_Pile_Asteroids_with_AoES)
