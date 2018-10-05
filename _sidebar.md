@@ -11,4 +11,5 @@
   * [目标小行星](topics/target-asteroids.md)
 * 研讨记录
   * [2018-09](meeting-notes/2018-09.md)
+  * [2018-10a](meeting-notes/2018-10a.md)
 * [加入我们](join-us.md)
