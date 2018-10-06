@@ -7,11 +7,9 @@
 
 ### 成核引力层析
 
-[热化](https://zh.wikipedia.org/wiki/%E8%A1%8C%E6%98%9F%E5%88%86%E7%95%B0#%E5%8C%96%E5%AD%B8%E5%88%86%E7%95%B0)
-
-https://en.wikipedia.org/wiki/Goldschmidt_classification
-
-https://en.wikipedia.org/wiki/Planetary_differentiation#Gravitational_separation
+* [热化](https://zh.wikipedia.org/wiki/%E8%A1%8C%E6%98%9F%E5%88%86%E7%95%B0#%E5%8C%96%E5%AD%B8%E5%88%86%E7%95%B0)
+  * https://en.wikipedia.org/wiki/Planetary_differentiation#Gravitational_separation
+* https://en.wikipedia.org/wiki/Goldschmidt_classification
 
 ### 碰撞解体形成小行星带
 
