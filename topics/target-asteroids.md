@@ -1,4 +1,17 @@
 
+### 铁镍[超新星核合成](https://zh.wikipedia.org/wiki/%E8%B6%85%E6%96%B0%E6%98%9F%E6%A0%B8%E5%90%88%E6%88%90)
+
+### 成核引力方式层析
+
+### 碰撞解体形成小行星带
+
+### NEA近地小行星
+
+* 组分
+* 轨道分布
+
+## Detail of NEA
+
 Included minor planets and [comets](https://en.wikipedia.org/wiki/List_of_numbered_comets).
 
 NEO/NEA Near-Earth Asteroid
