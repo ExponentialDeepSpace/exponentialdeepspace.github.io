@@ -23,3 +23,4 @@
 
 * [In-Situ Resource Utilization, NASA](https://www.nasa.gov/pdf/203084main_ISRU%20TEC%2011-07%20V3.pdf)
 * [Economic Pathways to Space Mining, Philip Metzger, UCF](http://sciences.ucf.edu/class/wp-content/uploads/sites/58/2017/03/Economic-Pathways-to-Space-Mining_ISRU-Seminar_Metzger.pdf)
+* [SpaceResources // Luxembourg](https://spaceresources.public.lu/en.html)
