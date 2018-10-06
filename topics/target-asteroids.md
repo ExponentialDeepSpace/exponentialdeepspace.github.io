@@ -16,6 +16,8 @@ https://www.zhihu.com/question/19801526/answer/13026899
 
 ![](http://www.xinhuanet.com/science/2018-04/21/137122350_15241170012481n.jpg)
 ![](https://n.sinaimg.cn/sinacn/20171017/5490-fymvuyt2424196.jpg)
+https://en.wikipedia.org/wiki/File:Evolved_star_fusion_shells.svg
+https://en.wikipedia.org/wiki/Supernova#Core_collapse
 -->
 
 ### 碰撞解体形成小行星带
