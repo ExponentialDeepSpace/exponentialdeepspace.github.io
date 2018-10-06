@@ -1,6 +1,10 @@
 
 # Overview
 
+组分分布
+
+可加工性
+
 电磁熔炼传输？
 
 ## Resource
