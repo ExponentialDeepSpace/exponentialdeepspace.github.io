@@ -12,7 +12,10 @@
 * https://en.wikipedia.org/wiki/Goldschmidt_classification
 
 <!-- 在冲击波向外传播的过程中，不管有没有导致最终爆炸，都会因为对外层（铁层之外是硅、硫、钙层，更外面是氖、镁层、氧层等）的冲击，而在外层生成除了上面9种元素外的，原子序号小于铁的少量其他16种元素。
-https://www.zhihu.com/question/19801526/answer/13026899 -->
+https://www.zhihu.com/question/19801526/answer/13026899
+
+![](http://www.xinhuanet.com/science/2018-04/21/137122350_15241170012481n.jpg)
+-->
 
 ### 碰撞解体形成小行星带
 
