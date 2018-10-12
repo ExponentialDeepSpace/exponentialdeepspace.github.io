@@ -1,0 +1,5 @@
+.layout--archive {
+  & > .layout--archive__result {
+    margin: map-get($base, vertical-space-lg) 0;
+  }
+}
