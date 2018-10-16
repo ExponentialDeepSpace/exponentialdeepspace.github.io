@@ -16,7 +16,7 @@ Grow in Space
 
 <!-- background image -->
 
-![](\assets\imgs\cover.webp)
+<!-- ![](\assets\imgs\cover.webp) -->
 
 <!-- background color -->
 
