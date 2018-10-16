@@ -14,9 +14,9 @@ Grow in Space
 [About](#welcome-to-the-eds)
 
 
-<!-- background image -->
+<!-- background image
 
-![](/assets/imgs/eds-diagram.png)
+![](/assets/imgs/eds-diagram.png) -->
 
 <!-- background color -->
 
