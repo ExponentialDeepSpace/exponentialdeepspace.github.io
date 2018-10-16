@@ -16,7 +16,7 @@ Grow in Space
 
 <!-- background image -->
 
-![](/assets/imgs/eds-diagram.png)
+
 
 <!-- background color -->
 
