@@ -15,7 +15,7 @@ through the system below:
 
 1. With adaptive optics reflector
 2. Towards asteroid in [M-type](topics/target-asteroids.md)
-3. Under the process of [Solar focus pit melting](topics/solar-focus.md)开采
+3. Under the process of [Solar focus pit melting](topics/solar-focus.md)
 4. And the process of Rolling/Forming/3D Printing
 5. To duplicate the adaptive optics reflector at exponential scale
 6. Through space robotics and AI system
