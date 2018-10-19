@@ -1,0 +1,115 @@
+html,
+body {
+  background: #253d47;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  font-family: Molengo, Sans-serif;
+}
+
+#title {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: table;
+}
+
+h1 {
+  color: #ffffff;
+  text-transform: uppercase;
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  z-index: 20;
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 3.5vw;
+  font-weight: 300;
+  letter-spacing: 0.9em;
+  text-shadow: 0 2px 5px rgba(25, 41, 48, 0.1), 0 4px 5px rgba(25, 41, 48, 0.1), 0 6px 5px rgba(25, 41, 48, 0.1), 0 8px 5px rgba(25, 41, 48, 0.1), 0 10px 5px rgba(25, 41, 48, 0.1), 0 12px 5px rgba(25, 41, 48, 0.1), 0 14px 5px rgba(25, 41, 48, 0.1), 0 16px 5px rgba(25, 41, 48, 0.1), 0 18px 5px rgba(25, 41, 48, 0.1), 0 20px 5px rgba(25, 41, 48, 0.1);
+}
+
+#layers {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+}
+
+.layer {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 0;
+  -webkit-animation-name: zoom;
+          animation-name: zoom;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+.layer.layer-2 {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+.layer.layer-3 {
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+.layer.layer-4 {
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+}
+.layer.layer-5 {
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+}
+
+.star {
+  width: 11px;
+  height: 11px;
+  display: inline-block;
+  position: absolute;
+  fill: #ffffff;
+}
+.star:nth-child(3n + 3) {
+  fill: #fec777;
+}
+.star:nth-child(5n + 5) {
+  fill: #498fb3;
+}
+
+@-webkit-keyframes zoom {
+  0% {
+    -webkit-transform: scale(0.1);
+            transform: scale(0.1);
+    opacity: 0;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(2);
+            transform: scale(2);
+    opacity: 0;
+  }
+}
+
+@keyframes zoom {
+  0% {
+    -webkit-transform: scale(0.1);
+            transform: scale(0.1);
+    opacity: 0;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(2);
+            transform: scale(2);
+    opacity: 0;
+  }
+}
