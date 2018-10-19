@@ -9,8 +9,10 @@
   * [Solar furnace](topics/solar-focus.md)
   * [Space robotics](topics/space-robotics.md)
   * [Target asteroids](topics/target-asteroids.md)
+
 <!-- * Meeting record
   * [2018-09](meeting-notes/2018-09.md)
   * [2018-10a](meeting-notes/2018-10a.md) -->
 <!-- * [加入我们](join-us.md) -->
+
 * [Team](team.md)

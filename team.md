@@ -29,7 +29,7 @@ Community supports
 * 陈Zhijun@THU
 * Nijie
 
-# contact from the admin
+## Contact of the admin
 
 Welcome to join us!
 
