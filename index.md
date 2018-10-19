@@ -38,8 +38,9 @@ achieve the goal of limited the supplement from the earth, bootstrap from the In
 
 We utilize [GitHub issues](https://github.com/ExponentialDeepSpace/exponentialdeepspace.github.io/issues) to archive the disscusion of the community.
 <!-- * 指数增长自复制深空工业[第一次会议](meeting-notes/2018-09.md) -->
-<!-- 
-### 可能的会议议程
+
+
+<!-- ### 可能的会议议程
 
 - [ ] 1. 所需科技树
 - [ ] 2. 可行性论证

@@ -28,3 +28,10 @@ Community supports
 * 蒋文嘉@HIT
 * 陈Zhijun@THU
 * Nijie
+
+# contact from the admin
+
+Welcome to join us!
+
+* nirvanajay[a]gmail.com
+* wechat: 1213 1957
