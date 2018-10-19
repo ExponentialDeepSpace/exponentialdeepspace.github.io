@@ -13,12 +13,16 @@ I'm glad you are here. I plan to talk about the Exponential Deep Space Industrie
 
 through the system below:
 
-1. With [adaptive optics reflector](topics/solar-focus.md)
-2. Towards asteroid in [M-type](topics/target-asteroids.md)
+1. With [adaptive optics reflector](https://github.com/ExponentialDeepSpace/exponentialdeepspace.github.io/issues/5)
+    <!-- topics/solar-focus.md) -->
+2. Towards asteroid in [M-type](https://github.com/ExponentialDeepSpace/exponentialdeepspace.github.io/issues/3)
+<!-- topics/target-asteroids.md) -->
 3. Under the process of [Solar focus pit melting](https://github.com/ExponentialDeepSpace/exponentialdeepspace.github.io/issues/6)
-4. And the process of [Rolling/Forming/3D Printing](topics/smelting-and-forming.md)
+4. And the process of [Rolling/Forming/3D Printing](https://github.com/ExponentialDeepSpace/exponentialdeepspace.github.io/issues/6#issuecomment-429029960)
+<!-- topics/smelting-and-forming.md) -->
 5. To duplicate the adaptive optics reflector at exponential scale
-6. Through [space robotics and AI system](topics/space-robotics.md)
+6. Through [space robotics and AI system](https://github.com/ExponentialDeepSpace/exponentialdeepspace.github.io/issues/7)
+<!-- topics/space-robotics.md) -->
 
 achieve the goal of limited the supplement from the earth, bootstrap from the Initial Base Package to exponentially scale up the industry in deep space.
 <!-- 达到尽量少依靠地球组件材料供应，通过初始基地包实现bootstrap可自复制大规模指数扩张深空工业的目的。 -->
