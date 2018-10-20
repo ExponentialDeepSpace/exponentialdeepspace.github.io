@@ -1,23 +1,75 @@
 ---
-layout: eds
+header_image: assets/images/covers/night-sky-cover.jpeg
+team_link: "#team"
+topics:
+  - name: Solar 
+    link: /topics/topics#solar
+  - name: Sat
+    link: /topics/topics#sat
 ---
 
+<!DOCTYPE html>
+<html lang="en">
+
+{% include landing/home-head.html %}
+
+<body>
+
+    {% include landing/nav.html %}
 
 
+    <div class="section section-header">
+        <div class="parallax filter filter-color-gradient-black">
+            <div class="image" style="background-image: url('{{page.header_image}}')">
+            </div>
+            <div class="container">
+                <div class="content">
+                    <div class="title-area">
+                        <p>Boosting the future space industry</p>
+                        <h1 class="title-modern">{{site.title}}</h1>
+                        <h3>{{site.description}}</h3>
+                            <div class="separator line-separator">♦</div>
+                    </div>
+
+                    <div class="button-get-started">
+                        <a href="#explore" class="btn btn-white btn-fill btn-lg ">
+                            Explore
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
 
 
-
-<div class="article__header">
-
-<header style="display: block; text-align:center;">
-</header>
+    {% include landing/intro.html %}
 
 
-<div>
-
-</div>
-
-</div>
+    {% include landing/team.html %}
 
 
+    {% include landing/projects.html %}
 
+
+    {% include landing/join-us.html %}
+
+
+    {% include landing/footer.html %}
+
+</body>
+
+<!--   core js files    -->
+<script src="assets/landing/assets/js/jquery.min.js" type="text/javascript"></script>
+<script src="assets/landing/assets/js/bootstrap.js" type="text/javascript"></script>
+
+<!--  js library for devices recognition -->
+<script type="text/javascript" src="assets/landing/assets/js/modernizr.js"></script>
+
+<!--  script for google maps   -->
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+
+<!--   file where we handle all the script from the Gaia - Bootstrap Template   -->
+<script type="text/javascript" src="assets/landing/assets/js/gaia.js"></script>
+
+</html>

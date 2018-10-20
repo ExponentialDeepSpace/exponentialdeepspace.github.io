@@ -1,0 +1,43 @@
+---
+---
+
+<!DOCTYPE html>
+<html lang="en">
+
+{% include landing/home-head.html %}
+
+<body>
+
+    {% include landing/nav.html %}
+
+
+    <div class="section">
+        
+            <div class="container">
+                <div class="content">
+                    <div class="title-area">
+                        <h1 class="title-modern">{{page.title}}</h1>
+                            <div class="separator line-separator">♦</div>
+                    </div>
+                </div>
+            </div>
+
+            
+
+    </div>
+
+    <div class="post-content e-content" itemprop="articleBody">
+                    {{ content }}
+                </div>
+
+
+    
+
+
+    {% include landing/footer.html %}
+
+</body>
+
+{% include landing/footer-assets.html %}
+
+</html>

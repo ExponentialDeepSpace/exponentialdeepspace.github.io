@@ -1,12 +1,52 @@
 ---
-layout: page
-title: 404
-show_title: false
+layout: none
 ---
-<div class="layout--404">
-  <div class="main">
-    <h1>404</h1>
-  </div>
-</div>
 
-{{ content }}
+<!DOCTYPE html>
+<html lang="en">
+
+{% include landing/home-head.html %}
+
+<body>
+
+    {% include landing/nav.html %}
+
+
+    <div class="section section-header">
+        
+            <div class="container">
+                <div class="content">
+                    <div class="title-area">
+                        <h1 class="title-modern">{{page.title}}</h1>
+                            <div class="separator line-separator">♦</div>
+                    </div>
+
+                    {{ content }}
+                </div>
+
+            </div>
+
+    </div>
+
+
+    
+
+
+    {% include landing/footer.html %}
+
+</body>
+
+<!--   core js files    -->
+<script src="assets/landing/assets/js/jquery.min.js" type="text/javascript"></script>
+<script src="assets/landing/assets/js/bootstrap.js" type="text/javascript"></script>
+
+<!--  js library for devices recognition -->
+<script type="text/javascript" src="assets/landing/assets/js/modernizr.js"></script>
+
+<!--  script for google maps   -->
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+
+<!--   file where we handle all the script from the Gaia - Bootstrap Template   -->
+<script type="text/javascript" src="assets/landing/assets/js/gaia.js"></script>
+
+</html>

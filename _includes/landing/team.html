@@ -1,0 +1,54 @@
+<a name="team"></a>
+<div class="section section-our-team-freebie">
+    <div class="parallax filter filter-color-black">
+        <div class="image" style="background: #606c88; background: -webkit-linear-gradient(to right, #606c88, #3f4c6b);background: linear-gradient(to right, #606c88, #3f4c6b);">
+        </div>
+        <div class="container">
+            <div class="content">
+                <div class="row">
+                    <div class="title-area">
+                        <h2>Team</h2>
+                        <div class="separator separator-danger">✻</div>
+                        <p class="description">The non-exhaustive list of members from all over the world</p>
+                    </div>
+                </div>
+
+                <div class="team">
+                    <div class="row">
+                        <div class="col-md-10 col-md-offset-1">
+                            {% for group in site.data.team %}
+                            <div class="row">
+                                <div class="title-area">
+                                    <h2> {{ group.name }} </h2>
+                                    <p class="description"> {{ group.description }} </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                            {% for member in group.members %}
+                                <div class="col-md-6 justify-content-center">
+                                    <div class="card card-member">
+                                        <div class="content">
+                                            {% comment %} <div class="avatar avatar-danger">
+                                                <img alt="..." class="img-circle" src="assets/landing/assets/img/faces/face_1.jpg" />
+                                            </div> {% endcomment %}
+                                            <div class="description">
+                                                <h3 class="title">{{ member.name }}</h3>
+                                                <p class="small-text">{{member.title}}</p>
+                                                <p class="description">{{member.description}}</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                {% endfor %}
+                            </div>
+                            {% endfor %}
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

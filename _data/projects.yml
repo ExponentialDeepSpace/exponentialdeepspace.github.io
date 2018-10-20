@@ -1,0 +1,15 @@
+- name: Project 1
+  slug: project-1
+  status: highlight
+  description:
+  link:
+- name: Project 2
+  slug: project-2
+  status: highlight
+  description:
+  link:
+- name: Project 2
+  slug: project-2
+  status: highlight
+  description:
+  link:

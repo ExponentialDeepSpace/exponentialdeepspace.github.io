@@ -19,20 +19,11 @@
 
 ## => Site Settings
 ##############################
-text_skin: dark # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
-highlight_theme: tomorrow-night	 # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
 url     : # the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl : # does not include hostname
 title   : Exponential Deep Space
 description: > # this means to ignore newlines until "Language & timezone"
-  Exponential Deep Space ensures space industries rocketing up.
-logo: false # for logo to be true, one has to also include the file in _include/svg/logl.svg
-
-## => Language and Timezone
-##############################
-lang: # the language of your site, "en" (default, English), "zh"(简体中文), "zh-Hans"(简体中文), "zh-Hant"(繁體中文)
-timezone: Etc/UTC # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
-
+  exponential space exploration with batteries included
 
 ## => Author and Social
 ##############################
@@ -54,19 +45,6 @@ author:
   telegram  : # "user_name" the last part of your profile url, e.g. https://t.me/user_name
 
 
-## => GitHub Repository (if the site is hosted by GitHub)
-##############################
-repository: exponentialDeepSpace/exponentialdeepspace.github.io
-repository_tree: master
-
-
-## => Paths
-##############################
-paths:
-  root    : # title link url, "/" (default)
-  home    : # home layout url, "/" (default)
-  archive : # "/archive.html" (default)
-  rss     : # "/feed.xml" (default)
 
 
 ## => Post
@@ -106,50 +84,6 @@ paginate_path: /page:num # don't change this unless for special need
 sources: # bootcdn (default), unpkg
 
 
-## => Comments
-##############################
-comments:
-  provider: false # false (default), "disqus", "gitalk", "custom"
-
-  ## Disqus
-  disqus:
-    shortname: # the Disqus shortname for the site
-
-  ## Gitalk
-  # please refer to https://github.com/gitalk/gitalk for more info.
-  gitalk:
-    clientID    : 78acb67546109ed8b86a # GitHub Application Client ID
-    clientSecret: f0fc7f688efb157d139aac4910d5569d0bdb4c43 # GitHub Application Client Secret
-    repository  : ExponentialDeepSpace/exponentialdeepspace.github.io # GitHub repo
-    owner       : ExponentialDeepSpace # GitHub repo owner
-    admin: # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
-      - emptymalei
-      - NirViaje
-      # - your GitHub Id
-
-
-## => Pageview
-##############################
-pageview:
-  provider: false # false (default), "leancloud", "custom"
-
-  ## Leancloud
-  leancloud:
-    app_id    : # LeanCloud App id
-    app_key   : # LeanCloud App key
-    app_class : # LeanCloud App class
-
-
-## => Analytics
-##############################
-analytics:
-  provider: false # false (default), "google", "custom"
-
-  ## Google Analytics
-  google:
-    tracking_id : # Google Analytics id for the site
-    anonymize_ip: false # Anonymize IP tracking for Analytics
-
 
 ## => Build
 ##############################
@@ -181,11 +115,6 @@ defaults:
       type: posts
     values:
       layout: article
-      license: true
-      aside:
-        toc: true
-      show_edit_on_github: true
-      pageview: true
 
 
 ## => Plugins

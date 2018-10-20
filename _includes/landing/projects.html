@@ -1,0 +1,27 @@
+<div class="section section-our-clients-freebie">
+    <div class="container">
+        <div class="title-area">
+            <h5 class="subtitle text-gray">Here are some</h5>
+            <h2>Projects</h2>
+            <div class="separator separator-danger">∎</div>
+        </div>
+
+        <div class="row">
+            {% for project in site.data.projects %}
+            {% if project.status == 'highlight' %}
+            <div class="col-md-4">
+                <div class="info-icon">
+                    <div class="icon text-danger">
+                        {% comment %} <i class="fa fa-code"></i> {% endcomment %}
+                    </div>
+                    <h3>{{project.name}} </h3>
+                    <p class="description">{{project.description}}</p>
+                </div>
+            </div>
+            {% endif %}
+            {% endfor %}
+        </div>
+
+
+    </div>
+</div>

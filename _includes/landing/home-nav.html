@@ -1,0 +1,39 @@
+<nav class="navbar navbar-default navbar-transparent navbar-fixed-top" color-on-scroll="200">
+        <!-- if you want to keep the navbar hidden you can add this class to the navbar "navbar-burger"-->
+        <div class="container">
+            <div class="navbar-header">
+                <button id="menu-toggle" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar bar1"></span>
+                    <span class="icon-bar bar2"></span>
+                    <span class="icon-bar bar3"></span>
+                </button>
+                <a href="http://exponentialdeepspace.org" class="navbar-brand">
+                    Exponential Deep Space
+                </a>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right navbar-uppercase">
+                    <li>
+                        <a href="{{page.team_link}}">Team</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                             Topics
+                        </a>
+                        <ul class="dropdown-menu dropdown-danger">
+                        {% for topic in page.topics %}
+                            <li>
+                                <a href="{{topic.link}}"> {{topic.name}} </a>
+                            </li>
+                        {% endfor %}
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="{{page.team_link}}">Meetings</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+    </nav>
