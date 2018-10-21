@@ -1,6 +1,7 @@
 ---
 title: Technologies Overview
 layout: page
+exclude: true
 ---
 
 # Overview

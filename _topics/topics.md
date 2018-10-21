@@ -1,29 +1,30 @@
 ---
 title: All Topics
 layout: page
+exclude: true
 ---
 
-{% for topic in site.topics %}
+{% for topic in site.topics | sort: "order" %}
 
-{{ topic.title }}
+{% if topic.exclude != true %}
+
+<div class="card shadow shadow-lg--hover mt-5">
+              <div class="card-body">
+                <div class="d-flex px-3">
+                  <div>
+                    <div class="icon icon-shape bg-gradient-success rounded-circle text-white">
+                      <i class="ni ni-bulb-61"></i>
+                    </div>
+                  </div>
+                  <div class="pl-4">
+                    <h5 class="title text-success">{{ topic.title }}</h5>
+                    <p>{{ topic.summary }}</p>
+                    <a href="{{ topic.url | prepend: site.baseurl }}" class="text-success">Learn More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+{% endif %}
   
 {% endfor %}
 
-
-
-# Topics in need for the exponential deep space industries
-
-## Preliminary work
-
-* [Target asteroids](topics/target-asteroids.md)
-
-## Main thread
-
-* [Solar focus](topics/solar-focus.md)
-* [Smelting and forming](topics/smelting-and-forming.md)
-* [Space robotics](topics/space-robotics.md)
-
-
-## others
-
-* [Electric Propulsion](topics/electric-propulsion.md)

@@ -5,12 +5,15 @@
       link: "/topics"
       showsub: true
       sub:
-        - name: Solar
-          description: Solar Energy 
-          link: "#"
+        - name: Solar Furnace
+          description: Solar Energy Focus
+          link: "/topics/solar-focus"
         - name: Asteroid
-          description: Target it
-          link: "#"
+          description: Locate and Research
+          link: "/topics/target-asteroid"
+        - name: All
+          description: List of Topics
+          link: "/topics/topics"
     - name: Join Us
       description: We are the legion
       type: "home"
@@ -23,12 +26,15 @@
       link: "/topics"
       showsub: true
       sub:
-        - name: Solar
-          description: Solar Energy 
-          link: "#"
+        - name: Solar Furnace
+          description: Solar Energy Focus
+          link: "/topics/solar-focus"
         - name: Asteroid
-          description: Target it
-          link: "#"
+          description: Locate and Research
+          link: "/topics/target-asteroid"
+        - name: All
+          description: List of Topics
+          link: "/topics/topics"
    
 
 - type: "top-right"

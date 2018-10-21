@@ -1,6 +1,8 @@
 ---
 title: Solar Energy Focus
 layout: page
+summary: 
+order: 4
 ---
 
 Several requirements in need to meet:
