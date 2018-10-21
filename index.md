@@ -1,5 +1,3 @@
 ---
-layout: default
+layout: home
 ---
-
-this is the content

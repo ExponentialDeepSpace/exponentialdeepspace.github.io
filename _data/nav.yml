@@ -1,0 +1,24 @@
+- type: main
+  navs:
+    - name: Topics
+      description: 
+      link: "#"
+      showsub: true
+      sub:
+        - name: Solar
+          description: Solar Energy 
+          link: "#"
+        - name: Asteroid
+          description: Target it
+          link: "#"
+
+    - name: Join Us 
+      description: We are the legion
+      link: "#"
+
+- type: "top-right"
+  navs:
+    - name: GitHub
+      description:
+      fa-icon: "fa fa-github"
+      link: "https://github.com/exponentialdeepspace"

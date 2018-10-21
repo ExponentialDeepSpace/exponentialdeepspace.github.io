@@ -1,0 +1,77 @@
+<header class="header-global">
+   <nav id="navbar-main" class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light headroom">
+     <div class="container">
+       <a class="navbar-brand mr-lg-5" href="{{ "/" | prepend: site.baseurl }}">
+         {{ site.title }}
+       </a>
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+       </button>
+       <div class="navbar-collapse collapse" id="navbar_global">
+         <div class="navbar-collapse-header">
+           <div class="row">
+             <div class="col-6 collapse-brand">
+               <a href="{{ "/" | prepend: site.baseurl }}">
+                 {{ site.title }}
+               </a>
+             </div>
+             <div class="col-6 collapse-close">
+               <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation">
+                 <span></span>
+                 <span></span>
+               </button>
+             </div>
+           </div>
+         </div>
+         <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
+           {% for navgroup in site.data.nav %}
+           {% if navgroup.type == "main" %}
+           {% for nav in navgroup.navs %}
+           <li class="nav-item dropdown">
+              <a href="#" class="nav-link" data-toggle="dropdown" href="{{ nav.link }}" role="button">
+                <i class="ni ni-ui-04 d-lg-none"></i>
+                <span class="nav-link-inner--text"> {{ nav.name }} </span>
+              </a>
+              {% if nav.showsub == true %}
+                    
+              <div class="dropdown-menu dropdown-menu-xl">
+                  <div class="dropdown-menu-inner">
+                      {% for subnav in nav.sub %}
+                    <a href="{{ subnav.link }}" class="media d-flex align-items-center">
+                     
+                      <div class="media-body ml-3">
+                        <h6 class="heading text-primary mb-md-1">{{ subnav.name }}</h6>
+                        <p class="description d-none d-md-inline-block mb-0"> {{ subnav.description }} </p>
+                      </div>
+                    </a>
+                    {% endfor %}
+                  </div>
+                </div>
+               
+                    {% endif %}
+              </li>
+           {% endfor %}
+           {% endif %}
+           {% endfor %}
+         </ul>
+
+         
+         <ul class="navbar-nav align-items-lg-center ml-lg-auto">
+           
+           {% for navgroup in site.data.nav %}
+           {% if navgroup.type == "top-right" %}
+           {% for nav in navgroup.navs %}
+           <li class="nav-item">
+             <a class="nav-link nav-link-icon" href="{{ nav.link }}" target="_blank" data-toggle="tooltip" title="{{ nav.description }}">
+               <i class="{{ nav.fa-icon }}"></i>
+               <span class="nav-link-inner--text d-lg-none">{{ nav.name }}</span>
+             </a>
+           </li>
+           {% endfor %}
+           {% endif %}
+           {% endfor %}
+         </ul>
+       </div>
+     </div>
+   </nav>
+ </header>
