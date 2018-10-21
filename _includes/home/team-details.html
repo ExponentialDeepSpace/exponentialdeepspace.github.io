@@ -1,0 +1,46 @@
+<section class="section section-lg bg-dark">
+      <div class="container">
+        <div class="row justify-content-center text-center mb-lg">
+          <div class="col-lg-8">
+            <h2 class="display-3 white-text">The Amazing Team</h2>
+            <p class="lead text-muted">The non-exhaustive list of members from all over the world</p>
+          </div>
+        </div> 
+        
+          
+            {% for group in site.data.team %}
+
+               <div class="row" style="margin-top:2em;margin-bottom:0.5em;">
+                  <div class="col-lg-12 text-center">
+                      <h3 class="display-4"> {{ group.name }} </h3>
+                      <p> {{ group.description }} </p>
+                  </div>
+              </div>
+              <div class="row">
+            {% for member in group.members %}
+            <div class=" col-lg-6 col-md-6" style="margin-top:1em; margin-bottom:1em;">
+               <div class="card shadow">
+                  <div class="card-body">
+                    <h5 class="card-title text-center">{{ member.name }}</h5>
+                    <span class="badge badge-pill badge-info">{{member.title}}</span>
+                    <p class="card-text">{{ member.description }}</p>
+                    <div class="text-center">
+                       {% for link in member.links %}
+                       {% if link.name == "linkedin" %}
+                       <a href="">
+                          <span class="badge badge-pill badge-primary">
+                             <i class="fa fa-linkedin"></i>
+                          </span>
+                          </a>
+                        {% endif %}
+                        {% endfor %}
+                      </div>  
+                  </div>
+                </div>
+               </div>
+          {% endfor %}
+          </div>
+          {% endfor %}
+        </div>
+      
+    </section>

@@ -1,8 +1,8 @@
-- type: main
+- type: home
   navs:
     - name: Topics
       description: 
-      link: "#"
+      link: "/topics"
       showsub: true
       sub:
         - name: Solar
@@ -11,10 +11,25 @@
         - name: Asteroid
           description: Target it
           link: "#"
-
-    - name: Join Us 
+    - name: Join Us
       description: We are the legion
-      link: "#"
+      type: "home"
+      link: "#join-us"
+
+- type: main
+  navs:
+    - name: Topics
+      description: 
+      link: "/topics"
+      showsub: true
+      sub:
+        - name: Solar
+          description: Solar Energy 
+          link: "#"
+        - name: Asteroid
+          description: Target it
+          link: "#"
+   
 
 - type: "top-right"
   navs:

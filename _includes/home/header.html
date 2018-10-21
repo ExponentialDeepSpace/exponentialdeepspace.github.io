@@ -25,10 +25,10 @@
          </div>
          <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
            {% for navgroup in site.data.nav %}
-           {% if navgroup.type == "main" %}
+           {% if navgroup.type == "home" %}
            {% for nav in navgroup.navs %}
            <li class="nav-item dropdown">
-              <a href="#" class="nav-link" data-toggle="dropdown" href="{{ nav.link }}" role="button">
+              <a class="nav-link" data-toggle="dropdown" href="{{ nav.link }}" role="button">
                 <i class="ni ni-ui-04 d-lg-none"></i>
                 <span class="nav-link-inner--text"> {{ nav.name }} </span>
               </a>

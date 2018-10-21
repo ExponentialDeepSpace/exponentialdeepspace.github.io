@@ -1,0 +1,37 @@
+<section class="section section-lg">
+  <div class="container">
+    <div class="row row-grid align-items-center">
+      <div class="col-md-6 order-md-2">
+        <div class="pr-md-5">
+          <ul class="list-unstyled mt-5">
+              {% for group in site.data.team %}
+            <li class="py-2">
+              <div class="d-flex align-items-center">
+                <div>
+                  <div class="badge badge-circle badge-info mr-3">
+                    <i class="ni ni-badge"></i>
+                  </div>
+                </div>
+                <div>
+                  <h6 class="mb-0">{{ group.name }}</h6>
+                </div>
+              </div>
+            </li>
+            {% endfor %}
+            
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-6 order-md-1">
+        <div class="pr-md-5">
+          <div class="icon icon-lg icon-shape icon-shape-success shadow rounded-circle mb-5">
+            <i class="ni ni-bulb-61"></i>
+          </div>
+          <h3>Our Awesome Team</h3>
+          <p>We are building the future</p>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
