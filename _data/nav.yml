@@ -10,10 +10,13 @@
           link: "/topics/solar-focus"
         - name: Asteroid
           description: Locate and Research
-          link: "/topics/target-asteroid"
+          link: "/topics/target-asteroids"
         - name: All
           description: List of Topics
           link: "/topics/topics"
+    - name: Meetup
+      description: 
+      link: "/meeting"
     - name: Join Us
       description: We are the legion
       type: "home"
@@ -35,6 +38,9 @@
         - name: All
           description: List of Topics
           link: "/topics/topics"
+    - name: Meetup
+      description: 
+      link: "/meeting"
    
 
 - type: "top-right"
