@@ -3,6 +3,7 @@ title: All Topics
 layout: page
 exclude: true
 ---
+
 {% assign topics = site.topics | sort: "order" %}
 
 {% for topic in topics %}

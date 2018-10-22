@@ -1,10 +1,8 @@
 ---
-layout: page
 title: About
-permalink: /about/
+permalink: "/about/"
+layout: page
 ---
-
-
 
 ![](../assets/imgs/2049-2050-tickets.jpg)
 
