@@ -4,7 +4,9 @@ layout: page
 exclude: true
 ---
 
-{% for post in site.meeting | sort: "order" %}
+{% assign meetups = site.topics | sort: "order" %}
+
+{% for post in meetups %}
 
 {% if post.exclude != true %}
 

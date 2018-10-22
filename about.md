@@ -6,7 +6,7 @@ permalink: /about/
 
 
 
-![](/assets/imgs/2049-2050-tickets.jpg)
+![](../assets/imgs/2049-2050-tickets.jpg)
 
 # contact from the admin
 

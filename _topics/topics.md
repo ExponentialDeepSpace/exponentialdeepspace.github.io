@@ -3,8 +3,9 @@ title: All Topics
 layout: page
 exclude: true
 ---
+{% assign topics = site.topics | sort: "order" %}
 
-{% for topic in site.topics | sort: "order" %}
+{% for topic in topics %}
 
 {% if topic.exclude != true %}
 
