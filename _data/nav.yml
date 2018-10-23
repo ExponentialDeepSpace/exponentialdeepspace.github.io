@@ -1,0 +1,51 @@
+- type: home
+  navs:
+    - name: Topics
+      description: 
+      link: "/topics"
+      showsub: true
+      sub:
+        - name: Solar Furnace
+          description: Solar Energy Focus
+          link: "/topics/solar-focus"
+        - name: Asteroid
+          description: Locate and Research
+          link: "/topics/target-asteroids"
+        - name: All
+          description: List of Topics
+          link: "/topics/topics"
+    - name: Meetup
+      description: 
+      link: "/meeting"
+    - name: Join Us
+      description: We are the legion
+      type: "home"
+      link: "#join-us"
+
+- type: main
+  navs:
+    - name: Topics
+      description: 
+      link: "/topics"
+      showsub: true
+      sub:
+        - name: Solar Furnace
+          description: Solar Energy Focus
+          link: "/topics/solar-focus"
+        - name: Asteroid
+          description: Locate and Research
+          link: "/topics/target-asteroid"
+        - name: All
+          description: List of Topics
+          link: "/topics/topics"
+    - name: Meetup
+      description: 
+      link: "/meeting"
+   
+
+- type: "top-right"
+  navs:
+    - name: GitHub
+      description:
+      fa-icon: "fa fa-github"
+      link: "https://github.com/exponentialdeepspace"

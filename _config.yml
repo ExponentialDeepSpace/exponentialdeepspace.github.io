@@ -1,0 +1,27 @@
+---
+title: Exponential Deep Space
+timezone: UTC
+collections:
+  meeting:
+    title: Meeting
+    output: true
+  posts:
+    title: Posts
+    output: true
+  topics:
+    title: Topics
+    output: true
+    layout: page
+  uploads:
+    title: Uploads
+    output: true
+email: admin@exponentialdeepspace.org
+description: Space industries with batteries included
+slogan: Boosting the future space industry
+baseurl: ''
+url: ''
+twitter_username: exponentialdeepspace
+github_username: exponentialdeepspace
+markdown: kramdown
+plugins:
+- jekyll-feed
