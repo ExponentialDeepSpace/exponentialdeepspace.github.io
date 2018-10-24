@@ -17,11 +17,15 @@
     - name: Meetup
       description: 
       link: "/meeting"
-    - name: Join Us
-      description: We are the legion
-      type: "home"
-      link: "#join-us"
-
+      showsub: true
+      sub:
+        - name: How
+          description: Online, GitHub
+          link: "/meeting"
+        - name: Archive
+          description: Notes
+          link: "/meeting"
+    
 - type: main
   navs:
     - name: Topics
@@ -41,11 +45,26 @@
     - name: Meetup
       description: 
       link: "/meeting"
+      showsub: true
+      sub:
+        - name: How
+          description: Online, GitHub
+          link: "/meeting"
+        - name: Archive
+          description: Notes
+          link: "/meeting"
+    
    
 
 - type: "top-right"
   navs:
+    - name: Join Us
+      description: We are the legion
+      fa-icon: "fa fa-bullhorn"
+      displayname: Join Us
+      link: "#join-us"
     - name: GitHub
       description:
       fa-icon: "fa fa-github"
       link: "https://github.com/exponentialdeepspace"
+    

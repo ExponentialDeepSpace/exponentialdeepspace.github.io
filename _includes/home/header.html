@@ -27,38 +27,39 @@
            {% for navgroup in site.data.nav %}
            {% if navgroup.type == "home" %}
            {% for nav in navgroup.navs %}
-           
+
+           {% if nav.showsub == true %}
            <li class="nav-item dropdown">
-              {% if nav.showsub == true %}
               <a class="nav-link" data-toggle="dropdown" href="{{ nav.link }}" role="button">
                 <i class="ni ni-ui-04 d-lg-none"></i>
                 <span class="nav-link-inner--text"> {{ nav.name }} </span>
               </a>
+              <div class="dropdown-menu dropdown-menu-xl">
+                <div class="dropdown-menu-inner">
+                    {% for subnav in nav.sub %}
+                  <a href="{{ subnav.link }}" class="media d-flex align-items-center">
+                   
+                    <div class="media-body ml-3">
+                      <h6 class="heading text-primary mb-md-1">{{ subnav.name }}</h6>
+                      <p class="description d-none d-md-inline-block mb-0"> {{ subnav.description }} </p>
+                    </div>
+                  </a>
+                  {% endfor %}
+                </div>
+              </div>
+            </li>
               {% else %}
-              <a class="nav-link" href="{{ nav.link }}" role="button">
+              <a class="nav-link" href="{{ nav.link }}" role="button"><li class="nav-item dropdown">
+                
+             
                   <i class="ni ni-ui-04 d-lg-none"></i>
                   <span class="nav-link-inner--text"> {{ nav.name }} </span>
+                  </li>
                 </a>
               {% endif %}
 
-              {% if nav.showsub == true %}
-                    
-              <div class="dropdown-menu dropdown-menu-xl">
-                  <div class="dropdown-menu-inner">
-                      {% for subnav in nav.sub %}
-                    <a href="{{ subnav.link }}" class="media d-flex align-items-center">
-                     
-                      <div class="media-body ml-3">
-                        <h6 class="heading text-primary mb-md-1">{{ subnav.name }}</h6>
-                        <p class="description d-none d-md-inline-block mb-0"> {{ subnav.description }} </p>
-                      </div>
-                    </a>
-                    {% endfor %}
-                  </div>
-                </div>
-               
-                    {% endif %}
-              </li>
+        
+             
            {% endfor %}
            {% endif %}
            {% endfor %}
@@ -71,9 +72,9 @@
            {% if navgroup.type == "top-right" %}
            {% for nav in navgroup.navs %}
            <li class="nav-item">
-             <a class="nav-link nav-link-icon" href="{{ nav.link }}" target="_blank" data-toggle="tooltip" title="{{ nav.description }}">
+             <a class="nav-link nav-link-icon" href="{{ nav.link }}" data-toggle="tooltip" title="{{ nav.description }}">
                <i class="{{ nav.fa-icon }}"></i>
-               <span class="nav-link-inner--text d-lg-none">{{ nav.name }}</span>
+               <span class="nav-link-inner--text">{{ nav.displayname }}</span>
              </a>
            </li>
            {% endfor %}
