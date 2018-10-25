@@ -18,15 +18,15 @@
               </div>
               <div class="row">
             {% for member in group.members %}
-            <div class=" col-lg-6 col-md-6" style="margin-top:1em; margin-bottom:1em;">
-               <div class="card shadow">
+            <div class=" col-lg-6 col-md-6 d-flex" style="margin-top:1em; margin-bottom:1em;">
+               <div class="card shadow flex-fill">
                   <div class="card-body">
                     <h5 class="card-title text-center">{{ member.name }}</h5>
                     <span class="badge badge-pill badge-info">{{member.title}}</span>
                     <p class="card-text">{{ member.description }}</p>
                     <div class="text-center">
                        {% for link in member.links %}
-                       {% if link.name == "linkedin" %}
+                       {% if link.name == "linkedin" and link.link != nil %}
                        <a href="">
                           <span class="badge badge-pill badge-primary">
                              <i class="fa fa-linkedin"></i>
