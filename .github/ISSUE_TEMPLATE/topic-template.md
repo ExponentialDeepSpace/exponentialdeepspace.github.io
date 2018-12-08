@@ -9,6 +9,7 @@ assignees: ''
 
 #5
 
-[x]
-[ ]
-[ ]
+- [x] now
+- [ ] past
+- [ ] future
+
